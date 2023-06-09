@@ -17,11 +17,11 @@ Genie.loadapp()
 cd(@__DIR__)
 Pkg.activate(".")
 
-# !!! Main.UserApp is configured as an alias for Main.JuDo and you might encounter it in some tests
-using Main.JuDo, Test, TestSetExtensions, Logging
+# !!! Main.UserApp is configured as an alias for Main.Jujutu and you might encounter it in some tests
+using Main.Jujutu, Test, TestSetExtensions, Logging
 
 Logging.global_logger(NullLogger())
 
-@testset ExtendedTestSet "JuDo tests" begin
+@testset ExtendedTestSet "Jujutu tests" begin
   @includetests ARGS
 end

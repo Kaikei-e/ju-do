@@ -1,4 +1,4 @@
-module JuDo
+module Jujutu
 
 using Genie
 
